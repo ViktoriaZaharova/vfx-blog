@@ -1,0 +1,273 @@
+@import "vars"
+
+@media only screen and (max-width: 1250px)
+  .header-menu li a
+    padding: 28px 15px
+
+@media only screen and (max-width: 1199px)
+  .header-menu li a
+    font-size: 14px
+
+  header .dropDown-menu
+    top: 74px
+
+  .nav-pills .nav-link
+    width: 180px
+    padding: 10px 14px
+    font-size: 13px
+
+  .nav-pills .nav-link.active
+    height: 48px
+
+@media only screen and (max-width : 991px)
+  .header-item
+    font-size: 11px
+    margin: 0 20px 0 0
+
+  .header-item__icon
+    width: 16px
+    height: 16px
+    min-width: 16px
+
+  .dropItem-language
+    padding: 0 0 0 15px
+
+  .header-menu li a
+    font-size: 12px
+    padding: 22px 8px
+
+  .list-social
+    margin: 0 0 24px
+    li
+      margin: 0 28px 0 0
+      a
+        width: 24px
+        height: 24px
+      &:last-child
+        margin: 0
+
+
+  .support-box
+    font-size: 11px
+    .header-item__icon
+      width: 16px
+      height: 16px
+
+  header .support-box
+    margin: 0 15px 0 0
+
+  header .dropDown-menu
+    top: 58px
+
+
+  .nav-pills .nav-link
+    width: 150px
+
+  .strategy-slider
+    padding: 30px 0
+
+  .slick-prev
+    left: 0
+    margin: 0 0 12px
+    &:before
+      content: 'Предыдущее'
+
+
+  .slick-next
+    right: 0
+    margin: 12px 0 0
+    &:before
+      content: 'Следующее'
+
+  .slick-arrow
+    width: 100%
+    height: auto
+    position: relative
+    transform: translate(0)
+    background: transparent
+    &:before
+      font-size: 12px
+      font-weight: 500
+      width: 100%
+      height: auto
+      background: transparent
+      position: relative
+      color: #737A8C
+      font-family: $default-font
+      line-height: 100%
+      text-align: left
+      justify-content: flex-start
+
+
+@media only screen and (max-width : 767px)
+  .btn-burger
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+  .header-item
+    font-size: 14px
+    margin: 0 17px 0 0
+
+  header
+    padding: 8px 0 9px
+    .header-menu, .dropItem
+      display: none
+    .logo
+      width: 30px
+
+
+  .mobile-menu
+    .header-menu
+      margin: 0 0 10px
+      flex-direction: column
+      align-items: flex-start
+      li
+        margin: 0 0 10px
+    .support-box
+      font-size: 14px
+      margin: 0 0 15px
+
+  .mail-user, .language-box, .support-box
+    display: none
+
+  .footer-box
+    width: 50%
+    margin: 0 0 24px
+
+  footer
+    padding: 24px 0
+
+  .footer-menu__wrapper
+    flex-wrap: wrap
+
+  .copyright
+    text-align: center
+
+  .info-section
+    padding: 40px 0 30px
+    &__box
+      flex-direction: column
+      align-items: center
+    .btn
+      margin: 0 auto 30px
+      width: 100%
+      height: 80px
+
+  .nav-pills .nav-link
+    width: auto
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 575px)
+  .tab-content
+    padding: 30px 0
+
+  .nav-pills .nav-item
+    margin: 0 10px 0 0
+
+  .section-title
+    padding: 30px 0 0
+
+  h1
+    font-size: 32px
+    margin: 0 0 30px
+
+  .blog-description
+    margin: 30px 0 0
+    p
+      display: none
+      margin: 0
+      &:nth-child(-n+1)
+        display: block
+
+  .name-category, .text-box, .list, blockquote, .img-wrapper
+    margin: 0 0 30px
+
+  .img-wrapper
+    height: 200px
+
+  .list
+    padding: 0 0 0 20px
+
+  .name-category
+    font-size: 13px
+
+  blockquote
+    padding: 30px 20px 32px
+    font-size: 16px
+
+  .author
+    margin: 16px 0 0
+    padding: 16px 0 0
+
+  h2
+    font-size: 28px
+    margin: 0 0 16px
+
+  .h3, .h4
+    margin: 0 0 16px
+
+
+  .strategy-box__wrapper
+    flex-direction: column
+    align-items: center
+
+  .strategy-box
+    max-width: 100%
+    background: #F0F0F0
+    margin: 0 0 54px
+    &:last-child
+      margin: 0
+
+  .slick-next
+    position: absolute
+    left: 0
+    bottom: 225px
+    margin: 0
+
+  .recommended
+    padding: 30px 0 10px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 480px)
+  .blog-box__wrap
+    display: none
+    &:nth-child(-n+3)
+      display: block
+
+@media only screen and (max-width : 375px)
+  .nav-pills .nav-link
+    font-size: 10px
+    padding: 10px 8px
+
+  .nav-pills .nav-link.active
+    height: 42px
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
