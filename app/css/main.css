@@ -293,7 +293,7 @@ blockquote {
 
 .section-title {
   background: #fff;
-  padding: 35px 0 0; }
+  padding: 40px 0 0; }
 
 header {
   background: #22273B;
@@ -673,9 +673,11 @@ footer {
 .wrapper .container {
   max-width: 1015px; }
 
-.tab-content {
-  padding: 40px 0 16px;
+.bg-grey {
   background: #f0f0f0; }
+
+.tab-content {
+  padding: 40px 0 16px; }
 
 .nav-pills {
   display: -webkit-box;
