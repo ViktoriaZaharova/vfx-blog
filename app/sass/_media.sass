@@ -37,15 +37,19 @@
     padding: 22px 8px
 
   .list-social
-    margin: 0 0 24px
+    margin: 28px 0 0
     li
-      margin: 0 28px 0 0
       a
-        width: 24px
-        height: 24px
+        width: 22px
+        height: 22px
       &:last-child
         margin: 0
 
+  .copyright
+    text-align: center
+
+  .footer-menu li
+    margin: 0 30px 0 0
 
   .support-box
     font-size: 11px
@@ -53,8 +57,6 @@
       width: 16px
       height: 16px
 
-  header .support-box
-    margin: 0 15px 0 0
 
   header .dropDown-menu
     top: 58px
@@ -129,8 +131,11 @@
       font-size: 14px
       margin: 0 0 15px
 
-  .mail-user, .language-box, .support-box
+  .mail-user, .language-box, .support-box, footer .dropItem
     display: none
+
+  .footer-menu
+    margin: 0 auto
 
   .footer-box
     width: 50%
@@ -157,6 +162,8 @@
 
   .nav-pills .nav-link
     width: auto
+
+
 
 
 /* Extra Small Devices, Phones */
@@ -230,6 +237,20 @@
   .recommended
     padding: 30px 0 10px
 
+  .footer-menu
+    flex-wrap: wrap
+    width: 100%
+    justify-content: space-between
+    li
+      margin: 0 0 16px
+      width: 40%
+      &:last-child
+        margin: 0 0 16px
+
+  .copyright
+    max-width: 260px
+    margin: 43px auto 0
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 480px)
   .blog-box__wrap
@@ -244,3 +265,7 @@
 
   .nav-pills .nav-link.active
     height: 42px
+
+  .footer-menu
+    li
+      width: 45%
